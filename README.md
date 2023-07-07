@@ -1,2 +1,2 @@
-# lince-flutter-studies
-Treinamento de Dart/Flutter
+# Cursos Decola
+Estudos e exercícios de cursos na plataforma Decola
