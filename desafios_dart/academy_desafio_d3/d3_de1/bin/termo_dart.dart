@@ -77,7 +77,7 @@ class TermoGame {
   // Em qual posição cada jogo terminou
   final gameEndPos = <int>[];
 
-  void set maxTentativas(int n) {
+  set maxTentativas(int n) {
     _maxTentativas = n;
     tentativasRestantes = n;
   }
@@ -270,7 +270,7 @@ class TermoGame {
     }
 
     // Imprime linhas
-    print("\n" + linhasTentativas.join('\n'));
+    print("\n${linhasTentativas.join('\n')}");
   }
 
   // Metodo principal do jogo
@@ -349,8 +349,9 @@ class TermoGame {
     if (numTentativas != null) {
       tentativasRestantes = max(1, numTentativas);
       reset(calcularTentativas: false);
-    } else
+    } else {
       reset();
+    }
     run();
   }
 
