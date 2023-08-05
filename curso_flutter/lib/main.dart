@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-// import '../academy_praticas/academy_pratica_f1/ef1_ap1.dart';
+
+// Importar aplicativo da atividade
+import 'package:curso_flutter/academy_praticas/academy_pratica_f6/ef6_ap1.dart'
+    as ativ;
 
 void main() {
-  runApp(const MyApp());
+  ativ.main();
 }
 
 class MyApp extends StatelessWidget {
